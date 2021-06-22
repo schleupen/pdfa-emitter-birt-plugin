@@ -91,7 +91,7 @@ public class PDFAPage extends AbstractPage {
 		Rectangle pageSize = new Rectangle(this.pageWidth, this.pageHeight);
 		document.setPageSize(pageSize);
 
-		// Erg�nzung f�r Pdfa-1b
+		// Changed for pdfa
 		if (!document.isOpen()) {
 			document.open();
 			InputStream inputStream = PDFAPage.class.getResourceAsStream("sRGB_v4_ICC_preference.icc");
@@ -103,7 +103,7 @@ public class PDFAPage extends AbstractPage {
 				logger.log(Level.SEVERE, "Das Farbprofil konnte nicht geladen werden.");
 			}
 		}
-		// Ende der Eg�nzung
+		// End changed
 		else
 			document.newPage();
 		this.contentByte = writer.getDirectContent();

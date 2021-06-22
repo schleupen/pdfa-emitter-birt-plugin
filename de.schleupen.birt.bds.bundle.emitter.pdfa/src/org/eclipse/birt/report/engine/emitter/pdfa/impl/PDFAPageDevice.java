@@ -84,7 +84,7 @@ public class PDFAPageDevice implements IPageDevice
 		{
 			writer = PdfWriter.getInstance( doc, new BufferedOutputStream( output ) );
 			
-			// Änderungen für Pdfa-1b 
+			// Changed for pdfa
 			//writer.setFullCompression( );
 			//writer.setRgbTransparencyBlending( true );
 						
@@ -97,7 +97,7 @@ public class PDFAPageDevice implements IPageDevice
 			doc.addCreator( creator );
 			
 			writer.createXmpMetadata();
-			// Änderungen ende
+			// End changed 
 						
 			if ( null != author )
 			{

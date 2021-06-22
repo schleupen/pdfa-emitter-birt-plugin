@@ -70,9 +70,9 @@ public class PDFARender extends PageDeviceRender
 
 	public String getOutputFormat( )
 	{
-		// Änderung für Pdfa-1b
+		// Changed for pdfa
 		return "pdfa";
-		// Ende Änderung
+		// End changed
 	}
 
 	protected void newPage( IContainerArea page )
