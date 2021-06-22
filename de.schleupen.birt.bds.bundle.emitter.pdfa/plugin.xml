@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.birt.report.engine.emitters">
+      <emitter
+            class="org.eclipse.birt.report.engine.emitter.pdfa.impl.PDFAEmitter"
+            format="Schleupen_pdfa"
+            icon="/resources/Icon_Schleupen_AG_neu.ico"
+            id="org.eclipse.birt.report.engine.emitter.pdfaemitter"
+            mimeType="application/pdf"
+            pagination="paper-size-pagination">
+      </emitter>
+   </extension>
+
+</plugin>

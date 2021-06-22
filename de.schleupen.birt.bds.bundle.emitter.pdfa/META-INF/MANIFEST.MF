@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pdfa/1b Emitter
+Bundle-SymbolicName: de.schleupen.birt.bds.bundle.emitter.pdfa;singleton:=true
+Bundle-Version: 3.28.0.qualifier
+Bundle-Vendor: Schleupen AG
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.birt.report.engine,
+ com.lowagie.text;bundle-version="2.1.7",
+ org.apache.batik.transcoder;bundle-version="1.6.0",
+ com.ibm.icu;bundle-version="54.1.1"
+Export-Package: org.eclipse.birt.report.engine.emitter.pdfa,
+ org.eclipse.birt.report.engine.emitter.pdfa.impl
+Automatic-Module-Name: de.schleupen.birt.emitter.pdfa.plugin
+
