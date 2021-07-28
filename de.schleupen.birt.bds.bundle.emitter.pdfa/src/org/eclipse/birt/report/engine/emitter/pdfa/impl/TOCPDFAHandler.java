@@ -7,6 +7,7 @@
  *
  * Contributors:
  *  Actuate Corporation  - initial API and implementation
+ *  Schleupen AG - modification for pdf/a
  *******************************************************************************/
 
 package org.eclipse.birt.report.engine.emitter.pdfa.impl;
